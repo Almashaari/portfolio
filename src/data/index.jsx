@@ -1,8 +1,8 @@
 import {
-  TelegramChat,
   car,
   keeper,
   tictactoe,
+  tracker,
   weather
 } from '../assets';
   
@@ -35,7 +35,7 @@ import {
     },
     {
       title: 'Travel Tracker',
-      image: TelegramChat,
+      image: tracker,
       description: `Travel Tracker is a web-based application that allows users to track countries they have been to. `,
       techstack: ' Express js, Node.js, EJS, CSS, PostgreSQL',
       previewLink: 'https://travel-tracker-indol.vercel.app/',

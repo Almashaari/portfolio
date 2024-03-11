@@ -24,13 +24,11 @@ import tictactoe from './tic-tac-toe.png';
 import vscode from './vscode.png';
 import vuejs from './vuejs.png';
 // Projects
-import AnkasaTicketing from './Ankasa Ticketing.png';
-import TelegramChat from './Telegram Chat.png';
 import car from './car.png';
+import tracker from './traker.png';
 import weather from './weather.png';
 export {
-  AnkasaTicketing,
-  TelegramChat, anwar, bootstrap,
+  anwar, bootstrap,
   bulma, car, codeigniter,
   css, express,
   git,
@@ -40,7 +38,7 @@ export {
   npm,
   php, picture, postman,
   react,
-  tailwind, tictactoe, vscode,
+  tailwind, tictactoe, tracker, vscode,
   vuejs, weather
 };
 
