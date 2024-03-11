@@ -1,5 +1,6 @@
+import { Footer } from './Footer';
 import { Header } from './Header';
+import { Timeline } from './Timeline';
 
-
-export { Header };
+export { Footer, Header, Timeline };
 

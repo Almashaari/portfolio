@@ -25,15 +25,13 @@ import vscode from './vscode.png';
 import vuejs from './vuejs.png';
 // Projects
 import AnkasaTicketing from './Ankasa Ticketing.png';
-import BlanjaShop from './Blanja Shop.png';
-import PeworldHire from './Peworld Hire.png';
 import TelegramChat from './Telegram Chat.png';
-
+import car from './car.png';
+import weather from './weather.png';
 export {
-  AnkasaTicketing, BlanjaShop, PeworldHire,
+  AnkasaTicketing,
   TelegramChat, anwar, bootstrap,
-  bulma,
-  codeigniter,
+  bulma, car, codeigniter,
   css, express,
   git,
   github,
@@ -43,5 +41,6 @@ export {
   php, picture, postman,
   react,
   tailwind, tictactoe, vscode,
-  vuejs
+  vuejs, weather
 };
+

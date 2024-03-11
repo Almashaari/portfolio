@@ -18,21 +18,21 @@ import {
   tailwind,
   vscode,
   vuejs,
-} from '../assets/images';
+} from '../assets';
 
 const Technologies = () => {
   return (
     <Layout>
-      <main >
+      <main className="container mx-auto max-width pt-10 pb-20 mt-10">
         <section>
-          <h1 >
+          <h1 className="text-1xl text-dark-primary dark:text-light-primary md:text-3xl xl:text-4xl xl:leading-tight font-bold capitalize">
             my tech stack
           </h1>
-          <p >
+          <p className="text-xl text-dark-content md:text-1xl xl:text-2xl py-2">
             Technologies I&apos;ve been working with recently
           </p>
         </section>
-        <section >
+        <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
           <img src={html} title="HTML" alt="HTML" />
           <img src={css} title="CSS" alt="CSS" />
           <img src={javascript} title="JavaScript" alt="Javascript" />
@@ -47,11 +47,11 @@ const Technologies = () => {
           <img src={codeigniter} title="Codeigniter" alt="Codeigniter" />
         </section>
         <section>
-          <h1 >
+          <h1 className="text-1xl text-dark-primary dark:text-light-primary md:text-3xl xl:text-4xl xl:leading-tight font-bold capitalize mt-14">
             tools
           </h1>
         </section>
-        <section >
+        <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
           <img
             src={vscode}
             title="Visual Studio Code"
