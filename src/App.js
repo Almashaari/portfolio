@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './index.css';
 
 import About from './pages/About';
@@ -10,7 +10,7 @@ import Technologies from './pages/Technologies';
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename="/portfolio">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -18,7 +18,7 @@ function App() {
         <Route path="/Projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-    </Router>
+      </BrowserRouter>
   );
 }
 
